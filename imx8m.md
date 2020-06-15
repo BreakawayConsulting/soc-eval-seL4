@@ -4,7 +4,7 @@
 
 i.MX 8M is a family of *application processors* from NXP.
 
-A general overview of the family is available from the (manufacturer website)[https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8m-family-armcortex-a53-cortex-m4-audio-voice-video:i.MX8M].
+A general overview of the family is available from the [manufacturer website](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8m-family-armcortex-a53-cortex-m4-audio-voice-video:i.MX8M).
 
 
 ## High-level Specs
@@ -46,7 +46,7 @@ The set of peripherals and compute power make this a relatively good general pur
 
 There are two interesting products where this SoC is in use (or will be):
 
-The first is the (Librem 5)[https://puri.sm/products/librem-5/] mobile phone, and the second is the (MNT Reform)[https://www.crowdsupply.com/mnt/reform] laptop.
+The first is the [Librem 5](https://puri.sm/products/librem-5/) mobile phone, and the second is the [MNT Reform](https://www.crowdsupply.com/mnt/reform) laptop.
 
 Both the devices are designed with openness, security and privacy in mind (although this report does not attempt to make any evaluations as to the security posture of these products).
 
@@ -55,7 +55,7 @@ The availability of these products makes this SoC an attractive target for seL4 
 
 ## Evaluation / Development Kit
 
-NXP provides the (MCIMX8M-EVK)[https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-applications-processor:MCIMX8M-EVK] as an evaluation kit for development purposes.
+NXP provides the [MCIMX8M-EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-applications-processor:MCIMX8M-EVK) as an evaluation kit for development purposes.
 
 The board exposes most of the peripherals allowing development of drivers.
 
@@ -72,7 +72,7 @@ However, given the lack of any I/O MMU in many similarly target SoCs this is a w
 The SoC includes a *high assurance boot* (HAB) implementation in ROM.
 This appears suitable for providing a secured boot process.
 
-It should be noted that the implementation of HAB in prior i.MX SoC-s (has a vulnerability)[https://blog.quarkslab.com/vulnerabilities-in-high-assurance-boot-of-nxp-imx-microprocessors.html].
+It should be noted that the implementation of HAB in prior i.MX SoC-s [has a vulnerability](https://blog.quarkslab.com/vulnerabilities-in-high-assurance-boot-of-nxp-imx-microprocessors.html).
 
 
 ## Summary
